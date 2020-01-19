@@ -2,6 +2,7 @@ class MusiciansController < ApplicationController
 
   def index
     @musicians = Musician.all
+    render 'index'
   end
 
   def show
